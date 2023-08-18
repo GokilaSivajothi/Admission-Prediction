@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:title" content="Admission Predition" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Prediction</title>
+    
+
+    <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+        <div class="container">
+    <h1>Admission Prediction for an graduate for their Higher Studies in Abroad</h1>
+    <form name="admissionPrediction" class="registartion-form" method="post" action="return validatemain()">
+      <table>
+        <tr>
+          <td><label>GRE Scores:</label></td>
+          <td><input type="number" name="name" step="any" id="name" placeholder="Enter in number"></td>
+        </tr>
+        <tr>
+          <td><label>TOEFL Scores:</label></td>
+          <td><input type="number" name="TOEFL Scores" step="any" id="TOEFL Scores" placeholder="Your TOEFL Scores"></td>
+        </tr>
+        <tr>
+          <td><label>University Ranking:</label></td>
+          <td><input type="number" name="University Ranking" step="any" id="University Ranking"></td>
+        </tr>
+        <tr>
+          <td><label>Statement of Purpose:</label></td>
+          <td><input type="number" name="Statement of Purpose" step="any"id="Statement of Purpose"></td>
+        </tr>
+        <tr>
+          <td><label>Letter of Recommendations:</label></td>
+          <td>
+           <input type="number" name="Lette of Recommendations" step="any" value="Letter of Recommendations">
+          </td>
+        </tr>
+          
+          <tr>
+          <td><label>CGPA:</label></td>
+          <td>
+           <input type="number" name="CGPA" step="any" id="CGPA"> 
+            
+          </td>
+          </tr>
+          
+        <tr>
+          <td><label>Research</label></td>
+          <td>
+            
+              <input type="number" name="Research" step="any" id="Research"> 
+          </td>
+        </tr>
+        
+          
+        <tr>
+          <td colspan="2">
+              <input type="submit" class="submit" value="Predict" /></td>
+        </tr>
+          <tr>
+          <td style="color:mediumvioletred;font-size: 18px">
+              Chance of Admit:
+        </td>
+          
+            <td width="200" height=100>
+            <input type="text" class="predict" id="predict" value="" style="color:magenta">
+            </td>
+          </tr>
+      </table>
+    </form>
+  </div>
+        <script type="text/javascript" src="validatemain.js">
+    </script>
+    </body>
+</html>
+    
+    
+  
